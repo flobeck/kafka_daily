@@ -22,7 +22,7 @@ async function load() {
         from: "inline",
         config: {
           serverMode: "full",
-          url: "/data.db",
+          url: "../data.db",
           requestChunkSize: 4096,
         },
       },
